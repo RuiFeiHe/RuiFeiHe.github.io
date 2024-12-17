@@ -30,9 +30,10 @@
         </style>
         <ul>
             <li><a href="#top" class="small button"><strong>About</strong></a></li>
-            <li><a href="#two" class="small button"><strong>Recent work</strong></a></li>
-            <li><a href="#three" class="small button"><strong>Coursework</strong></a></li>
-            <li><a href="#four" class="small button"><strong>News!</strong></a></li>
+            <li><a href="#two" class="small button"><strong>Publication</strong></a></li>
+            <li><a href="#three" class="small button"><strong>TA</strong></a></li>
+            <li><a href="#four" class="small button"><strong>Coursework</strong></a></li>
+            <li><a href="#five" class="small button"><strong>News!</strong></a></li>
         </ul>
     </header>
 
@@ -48,7 +49,7 @@
                 <!-- <h3><a href="pdfs/Research_Statement.pdf">Research Statement</a></h3> -->
             </header>
             <p>
-                I'm currently a fourth-year Ph.D. student from the University of Hong Kong, studying under the supervision of <a href="https://xjqi.github.io/">Prof. Xiaojuan Qi</a>. My research interest lies in the wild areas of artificial intelligence and computer vision, with a focus on <strong>data-centric/efficient learning (e.g. synthetic/generative data, mixing multi-modal data, and semi-supervised learning)</strong> for computer vision tasks. 
+                I'm currently a fourth-year Ph.D. student from the University of Hong Kong, studying under the supervision of <a href="https://xjqi.github.io/">Prof. Xiaojuan Qi</a>. My research interest lies in the wild areas of artificial intelligence and computer vision, with a focus on <strong>data-centric/efficient learning (e.g. synthetic/generative data, mixing multi-modal data, and semi-supervised learning)</strong> for computer vision tasks. During my Ph.D. study, I am also a research intern at ByteDance AI Lab. 
                 
             </p>
             <p>
@@ -102,20 +103,223 @@
         -->
         <!-- my added Two -->
         <section id="two">
-            <h1>Recent work</h1>
-
+            <h1>Selected Publication</h1>
 
             <div class="row homepage-row">
                 <div class="pub-img">
-                    <img src="images/optical_flow.png" height="200" width="450">
+                    <img src="images/synthetic.png" height="200" width="600">
                 </div>
                 <div class="pub-content">
                     <div>
-                        <div class="pub-title" , style="white-space:nowrap;"><strong>(CVPR20)Learning by Analogy: Reliable Supervision from Transformations for Unsupervised Optical Flow Estimation.</strong></div>
+                        <div class="pub-title" , style="white-space:nowrap;"><strong>Is synthetic data from generative models ready for image recognition?</strong></div>
                         <div style="white-space:nowrap;">
-                            Liang Liu, Jiangning Zhang, <strong>Ruifei He</strong>, Yong Liu, Yabiao Wang, Ying Tai, Donghao Luo, Chengjie Wang, Jilin Li, Feiyue Huang
+                            <strong>Ruifei He</strong>, Shuyang Sun, Xin Yu, Chuhui Xue, Wenqing Zhang, Philip Torr, Song Bai, Xiaojuan Qi.
                         </div>
-                        <div>Instructor: <a href="https://person.zju.edu.cn/en/yongliu#837138">Prof. Yong Liu</a></div>
+                        <div style="white-space:nowrap;">
+                            International Conference on Learning Representations (<strong>ICLR</strong>), 2023.
+                        </div>
+                        <div style="color:red;">
+                            Spotlight
+                        </div>
+                        
+                        <div>
+                            [<a href="https://openreview.net/pdf?id=nUmCcZ5RKF">paper</a>]
+                            [<a href="https://github.com/CVMI-Lab/SyntheticData">code</a>]
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <hr />
+
+            <div class="row homepage-row">
+                <div class="pub-img">
+                    <img src="images/KDEP.png" height="240" width="700">
+                </div>
+                <div class="pub-content">
+                    <div>
+                        <div class="pub-title" , style="white-space:nowrap;"><strong>Knowledge Distillation as
+                            Efficient Pre-training: Faster Convergence, Higher Data-efficiency, and Better Transferability.</strong></div>
+                        <div style="white-space:nowrap;">
+                            <strong>Ruifei He</strong>, Shuyang Sun, Jihan Yang, Song Bai, Xiaojuan Qi. 
+                        </div>
+                        <div style="white-space:nowrap;">
+                            IEEE Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2022.
+                        </div>
+                        <div>
+                            [<a href="https://arxiv.org/pdf/2203.05180">paper</a>]
+                            [<a href="https://github.com/CVMI-Lab/KDEP">code</a>]
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <hr />
+
+            <div class="row homepage-row">
+                <div class="pub-img">
+                    <img src="images/DARS.png" height="240" width="700">
+                </div>
+                <div class="pub-content">
+                    <div>
+                        <div class="pub-title" , style="white-space:nowrap;"><strong>Re-distributing Biased Pseudo Labels in Self-training for Semi-supervised Semantic Segmentation.</strong></div>
+                        <div style="white-space:nowrap;">
+                            <strong>Ruifei He</strong>, Jihan Yang, Xiaojuan Qi. 
+                        </div>
+                        <div style="white-space:nowrap;">
+                            IEEE International Conference on Computer Vision (ICCV), 2021.
+                        </div>
+                        <div style="color:red;">
+                            Oral (3.4% acceptance rate)
+                        </div>
+                        <div>
+                            [<a href="https://arxiv.org/pdf/2211.15846">paper</a>]
+                            [<a href="https://github.com/kevin-ssy/LUMix">code</a>]
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <hr />
+
+            <div class="row homepage-row">
+                <div class="pub-img">
+                    <img src="images/v2a.png" height="300" width="600">
+                </div>
+                <div class="pub-content">
+                    <div>
+                        <div class="pub-title" , style="white-space:nowrap;"><strong>Multi-Modal Controllable Video-to-Audio Generation.</strong></div>
+                        <div style="white-space:nowrap;">
+                            <strong>Ruifei He</strong>, Chuhui Xue, Wenqing Zhang, Yingchen Yu, Zhengzhe Liu, Song Bai, Xiaojuan Qi. 
+                        </div>
+                        <div style="white-space:nowrap;">
+                            Under review, 2024.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <hr />
+
+            <div class="row homepage-row">
+                <div class="pub-img">
+                    <img src="images/mc-moe.png" height="250" width="750">
+                </div>
+                <div class="pub-content">
+                    <div>
+                        <div class="pub-title" , style="white-space:nowrap;"><strong>MC-MoE: Mixture Compressor for Mixture-of-Experts LLMs Gains More.</strong></div>
+                        <div style="white-space:nowrap;">
+                            Wei Huang, Yue Liao, Jianhui Liu, <strong>Ruifei He</strong>, Haoru Tan, Shiming Zhang, Hongsheng Li, Si Liu, Xiaojuan Qi. 
+                        </div>
+                        <div style="white-space:nowrap;">
+                            Under review, 2024.
+                        </div>
+                        <div>
+                            [<a href="https://arxiv.org/pdf/2410.06270">paper</a>]
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <hr />
+
+            <div class="row homepage-row">
+                <div class="pub-img">
+                    <img src="images/bias.png" height="200" width="750">
+                </div>
+                <div class="pub-content">
+                    <div>
+                        <div class="pub-title" , style="white-space:nowrap;"><strong>Debiasing Text-to-Image Diffusion Models.</strong></div>
+                        <div style="white-space:nowrap;">
+                            <strong>Ruifei He</strong>, Chuhui Xue, Haoru Tan, Wenqing Zhang, Yingchen Yu, Song Bai, Xiaojuan Qi. 
+                        </div>
+                        <div style="white-space:nowrap;">
+                            Proceedings of the 1st ACM Multimedia Workshop on Multi-modal Misinformation Governance in the Era of Foundation Models
+                            <br> (<strong>ACM MM Workshop</strong>), 2024.
+                        </div>
+                        <div>
+                            [<a href="https://dl.acm.org/doi/abs/10.1145/3689090.3689387">paper</a>]
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <hr />
+
+            
+
+            <div class="row homepage-row">
+                <div class="pub-img">
+                    <img src="images/vertical.png" height="250" width="500">
+                </div>
+                <div class="pub-content">
+                    <div>
+                        <div class="pub-title" , style="white-space:nowrap;"><strong>Vertical Layering of Quantized
+                            Neural Networks for Heterogeneous Inference.</strong></div>
+                        <div style="white-space:nowrap;">
+                             Hai Wu, <strong>Ruifei He</strong>, Haoru Tan, Xiaojuan Qi, Kaibin Huang.
+                        </div>
+                        <div style="white-space:nowrap;">
+                            IEEE Transactions on Pattern Analysis and Machine Intelligence (<strong>TPAMI</strong>), 2023.
+                        </div>
+                        <div>
+                            [<a href="https://arxiv.org/pdf/2212.05326">paper</a>]
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <hr />
+
+            
+
+            <div class="row homepage-row">
+                <div class="pub-img">
+                    <img src="images/lumix.png" height="240" width="700">
+                </div>
+                <div class="pub-content">
+                    <div>
+                        <div class="pub-title" , style="white-space:nowrap;"><strong>LUMix:
+                            Improving Mixup by Better Modelling Label Uncertainty.</strong></div>
+                        <div style="white-space:nowrap;">
+                            Shuyang Sun, Jie-Neng Chen, <strong>Ruifei He</strong>, Alan Yuille, Philip Torr, Song Bai. 
+                        </div>
+                        <div style="white-space:nowrap;">
+                            IEEE International Conference on Acoustics, Speech and Signal Processing (<strong>ICASSP</strong>), 2022.
+                        </div>
+                        <div>
+                            [<a href="https://arxiv.org/pdf/2211.15846">paper</a>]
+                            [<a href="https://github.com/kevin-ssy/LUMix">code</a>]
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <hr />
+
+        
+
+            <div class="row homepage-row">
+                <div class="pub-img">
+                    <img src="images/optical_flow.png" height="250" width="650">
+                </div>
+                <div class="pub-content">
+                    <div>
+                        <div class="pub-title" , style="white-space:nowrap;"><strong>Learning by Analogy: Reliable Supervision from Transformations for Unsupervised Optical Flow Estimation.</strong></div>
+                        <div style="white-space:nowrap;">
+                            Liang Liu, Jiangning Zhang, <strong>Ruifei He</strong>, Yong Liu, Yabiao Wang, Ying Tai, Donghao Luo, Chengjie Wang, Jilin Li, Feiyue Huang.
+                        </div>
+                        <div style="white-space:nowrap;">
+                            IEEE Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2020.
+                        </div>
                         <div>
                             [<a href="https://arxiv.org/pdf/2003.13045.pdf">paper</a>]
                             [<a href="https://github.com/lliuz/ARFlow">code</a>]
@@ -135,7 +339,7 @@
                     <div>
                         <div class="pub-title"><strong>Research on artificial intelligence algorithm of edge computing.</strong></div>
                         <div>Co-work with Zizhang Li and Jintao Lu</div>
-                        <div>Instructor: <a href="https://person.zju.edu.cn/en/yongliu#837138">Prof. Yong Liu</a></div>
+                        
                         <div>
                             [<a href="https://github.com/RuiFeiHe/Course_work_Bank/blob/master/edge_computing.pdf">report</a>]
                             [<a href="https://github.com/RuiFeiHe/Course_work_Bank/blob/master/edge_computing.ppt">slides</a>]
@@ -146,8 +350,18 @@
 
         </section>
 
-        <!-- my added Three -->
         <section id="three">
+            <h1>Teaching Assistant</h1>
+            ELEC6604 Neural networks, fuzzy systems and genetic algorithms, 2024~2025
+            <br>
+            ELEC8108 Deep learning and applications, 2022~2024
+            <br>
+            ENGG1310 Electricity and electronics, 2021~2022
+        
+        </section>
+
+        <!-- my added Three -->
+        <section id="four">
             <h1>Undergraduate Course Projects</h1>
             <p><strong>These projects mainly represent my undergraduate work.</strong></p>
 
@@ -225,9 +439,19 @@
 
         </section>
 
+
         <!-- my added Four -->
-        <section id="four">
+        <section id="five">
             <h1>News!</h1>
+            <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+                <div class="field-items">
+                    <div class="field-item even" property="content:encoded">
+                        <h3>Ph.D. Journey</h3>
+                        <ul>
+                            <li>Starting from Sept. 2021, I have been awarded the Hong Kong PhD Fellowship (<strong>HKPFS</strong>) and the HKU Presidential PhD Scholarship (<strong>HKU-PS</strong>) and pursuing my Ph.D. in <a href="https://labhku.github.io/">CVMI Lab</a>, The University of Hong Kong, advised by <a href="https://xjqi.github.io/">Prof. Xiaojuan Qi</a>. </li>
+                        </ul>
+                    </div>
+                </div>
             <div class="field field-name-body field-type-text-with-summary field-label-hidden">
                 <div class="field-items">
                     <div class="field-item even" property="content:encoded">
@@ -246,15 +470,7 @@
                             </ul>
                         </div>
                     </div>
-                <div class="field field-name-body field-type-text-with-summary field-label-hidden">
-                    <div class="field-items">
-                        <div class="field-item even" property="content:encoded">
-                            <h3>Internship</h3>
-                            <ul>
-                                <li>Starting from May 2020, I'm working as a Research Asistant in <a href="https://labhku.github.io/">CVMI Lab</a>, The University of Hong Kong, advised by <a href="https://xjqi.github.io/">Prof. Xiaojuan Qi</a>. </li>
-                            </ul>
-                        </div>
-                    </div>
+                
         </section>
 
 
@@ -584,7 +800,7 @@
         <div class="inner">
             <ul class="icons">
                 <li><a href="https://github.com/RuiFeiHe" class="icon brands fa-github"><span class="label">Github</span></a></li>
-                <li><a href="mailto:rfhe@zju.edu.cn" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+                <li><a href="mailto:ruifeihe@connect.hku.hk" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
                 <li><a href="https://scholar.google.com/citations?user=P7IL0hkAAAAJ" class="icon brands fa-google"><span class="label"></span></a></li>
             </ul>
             <ul class="copyright">
